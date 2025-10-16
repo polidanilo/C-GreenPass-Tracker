@@ -1,7 +1,5 @@
 # GreenPass-Tracker (C and Linked Lists)
-
-## Overview
-This is the solution to my university practical exam for the course "Programming and Laboratory", Academic Year 2022/2023. By handling **dynamic data structures** in **C Programming**, the goal is to process an unsorted list of medical events (tests/vaccines) and generate a summary of each person's immunity status, presented in a dynamically created and maintained **sorted linked list**.
+This is the solution to my practical exam for the University of Ferrara (UNIFE) course "Programming and Laboratory", Academic Year 2022/2023. By handling **dynamic data structures** in **C Programming**, the goal was to process an unsorted list of medical events (tests/vaccines) and generate a summary of each person's immunity status, presented in a dynamically created and maintained **sorted linked list**.
 
 ## Key Concepts Demonstrated
 - **Low-Level C Programming:** Entirely implemented in C, showcasing proficiency with manual memory management.
@@ -38,7 +36,7 @@ The program requires the path to the binary data file (eventi.dat) as the sole c
 
 ### Expected Output (Sorted):
 ```
-Codice Fiscale Status
+Codice Fiscale   Status
 BLQLRW60T55A690A tampone, vaccino
 BRMPWN64B04C094E tampone, vaccino
 FDIWTR89S26H438B tampone, vaccino
