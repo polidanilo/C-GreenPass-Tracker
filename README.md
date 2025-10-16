@@ -25,18 +25,19 @@ The project is compiled using the GNU Compiler Collection (GCC). It has been tes
 
 ### Build
 Use the provided Makefile for a clean, single-command compilation process:
-```bash
+```
 make
+```
 (This command generates the main.o and listaPersone.o object files and links them to create the final executable named greenpass.)
 
-#### Execution and Expected Output
+### Execution
 The program requires the path to the binary data file (eventi.dat) as the sole command-line argument. The output is a list of individuals, sorted lexicographically by Codice Fiscale, showing their recorded immunity events.
-
-```bash
+```
 ./greenpass eventi.dat./greenpass eventi.dat.
+```
 
-#### Expected Output (Sorted):
-
+### Expected Output (Sorted):
+```
 Codice Fiscale Status
 BLQLRW60T55A690A tampone, vaccino
 BRMPWN64B04C094E tampone, vaccino
@@ -46,4 +47,5 @@ KLMLGB30P51C699Q tampone
 MJFNVF56B13A870S vaccino
 MSMSDB71P66F839O tampone, vaccino
 WDTBCR34E05I626F vaccino
+```
 (Note: The list is generated dynamically by processing an unsorted binary file and inserting records into a lexicographically ordered linked list.)
