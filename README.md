@@ -1,7 +1,7 @@
 # GreenPass-Tracker (C and Linked Lists)
 This is the solution to my practical exam for the University of Ferrara (UNIFE) course "Programming and Laboratory", Academic Year 2022/2023. By handling **dynamic data structures** in **C Programming**, the goal was to process an unsorted list of medical events (tests/vaccines) and generate a summary of each person's immunity status, presented in a dynamically created and maintained **sorted linked list**.
 
-## Key Concepts Demonstrated
+## Key Concepts
 - **Low-Level C Programming:** Entirely implemented in C, showcasing proficiency with manual memory management.
 - **Pointers-to-Pointers (`**Node`):** The core function `aggiornaLista` utilizes the pointer-to-pointer idiom to manage and modify the list's head or intermediate links directly.
 - **Sorted Linked List:** Maintains the list in lexicographical order (by 'codice fiscale') during insertion, ensuring efficient lookups and ordered output.
